@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsci1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GUI/lib/jsci/jsci-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/GUI/lib/jsci/jsci-xtra.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

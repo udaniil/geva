@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GEVA_GUI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GEVA_GUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
