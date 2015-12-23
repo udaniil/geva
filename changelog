@@ -1,0 +1,107 @@
+v2.0	UPDATE: Fixed FindBugs recommendations (Release Team) 23/03/11
+	Ran FindBugs and fixed issues it flagged non of which effect the
+	running of the program
+
+v2.0	BUGFIX: Replacement Problem (AB) 23/03/11
+	Fixed issue where during replacement and invalid individual could
+	enter the population. Now the invalid is replaced by a parent.
+
+v2.0	FEATURE: Added new super properties file (DF) 11/03/11
+	Added property file that contains all the possible properties required
+	by GEVA. Commented as needed
+	
+	Updated:
+	TemplateProperties.properties
+
+v2.0	UPDATE: Updated properties files to reflect changes (DF) 11/03/11
+	Updated properties files to reflect changes made in the release such as
+	refactoring
+
+v2.0	FEATURE: Updated SinglePointCrossover.java (LW) 11/03/11
+	Made crossover point be, by default, in the effective or used region
+	of the chromosome
+
+v2.0	FEATURE: Added SubTreeMutation and SubTreeCrossover (LW) 2/03/11
+	Added Subtree Mutation and Subtree Crossover to release
+	Added:
+	Operator/Operations/ContextSensitiveOperations/SubtreeCrossover.java
+	Operator/Operations/ContextSensitiveOperations/SubtreeMutation.java
+	
+v2.0	FEATURE: Added new required methods to GenotypeHelper (LW) 2/03/11
+	Added methods required by GenotypeHelper.java
+
+v2.0	BUGFIX: Fixed DerivationTree.java (AB) 2/03/2011
+	Fixed issue where when using GECodonValue it was possible to perform
+	wrapping even when set to zero. Added test to test class to check this
+	doesn't happen
+	
+	Updated DerivationNode.java
+	Updated ContextualDerivationTree.java
+	Updated ContextualDerivationTreeTest.java
+	To work with new DerivationTree.java
+
+v2.0	BIGFIX: Updated MaxProblemInterpreter (LW) 2/03/11
+	Fixed issue where fitness may not calculate properly
+
+v2.0	BUGFIX: Update StaticIntList size increase (AB) 2/03/11
+	Fixed StaticIntList.java to increase its size by 10% instead of 100%
+	to reduce chromosome expansion
+
+v2.0	UPDATE: Updated libraries (DF) 2/03/11
+	Updated the external libs used by GEVA to the latest stable releases
+	
+v2.0	REFACTOR: Renamed RampedFullGrowInitialiser (LW) 2/03/11
+	Renamed RampedFullGrowInitialiser to RampedHalfAndHalfInitialiser.java
+	and refactored code as needed
+
+v2.0	BUGFIX: Fixed rampedFullGrow (LW) 2/03/11
+	Fixed issue with depth and comparison
+
+v2.0	FEATURE: Adding new grammar for AntTrail problems (DF) 
+	We have added a move complex grammar for the Ant trail problems 
+	
+	sf_interpreter_enhanced.bnf
+	
+v2.0	FEATURE: Adding new interpreters for problems (LW) 2/03/11
+	We have moved external interpreters to and external interpreter
+	package to remove any confussion of what interpreter to use and
+	added new interpreters for the following problem/s
+	
+	Symbolic Regression now uses SymbolicRegressionIntrepreter.java
+	SantaFe Ant Trail now uses SantaFeAntTrailInterpreter.java
+	ParityPRoblems now use BooleanInterpreter.java
+	
+V1.2    FEATURE: Adding new problems (JB) 24/06/10
+	We have added the max problem, the Royal Tree problem and the
+	lawnmower problem from Koza's Genetic Programming We also added
+	some new ant trails, San Mateo and Los Altos.
+v1.2    BUGFIX: Fixed shadowed Collector object in Main.Run.java(28/6/10) (JMS) 
+        Main.Run.java (R1637)
+	deleted variable that was being shadowed in main.run class
+	Main.Run
+v1.2    BUGFIX: removed xor fro even five parity problem grammar 25/6/10 (DF)
+        param.Grammar.efp_grammar_gr.bnf(R1629)
+v1.2    BUGFIX: added derivation_tree variable to ExperimentalBase.properties 25/6/10 (DF)
+        param.Parameters.ExperimentBase.properties(R1632)
+v1.2    BUGFIX: PS saving error in LSystem problem. 28/6/10 (EM)
+	Fixed the LSystems bug that occured when saving to eps file. Error
+	was at com.rie.rieps.engine.factories.PSFactory:114. Rectified by
+	modifying GEVA/build.xml to include resources from source dirs in
+	the jar.
+	GEVA/build.xml (R1634)
+v1.1 	18 february 2009
+	v1.1 is a bug fix release which updates the code for the Santa Fe
+	Ant Trail example problem. Edited the trail so move, right and
+	left can only be done if there is energy left Changed the facing
+	of the ant in the start position to East(x=0,y=1) instead of
+	South(x=1,y=0) Changed left to right and right to left. Thanks to
+	Bill Teahan and Loukas Georgiou for highlighting the ant starting
+	position and left/right bugs.
+
+	
+******Changelog template******
+version changeType: Title of change Date (initials)
+	a brief description of the bug
+	a brief description of the solution
+	list of files and the revision in which they were changed
+******************************

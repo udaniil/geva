@@ -1,0 +1,3 @@
+<code> ::= <code> <line> | <line>
+<line> ::= if(food_ahead() == 1) { <code> } else { <code> }\n | <op>
+<op>   ::= left(); | right(); | move();

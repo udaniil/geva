@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="gui_rc1" default="all">
+  
+  
+  <property file="gui_rc1.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.sbas/**"/>
+    <exclude name="**/.IJI.*/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    <include name="**/?*.gif"/>
+    <include name="**/?*.png"/>
+    <include name="**/?*.jpeg"/>
+    <include name="**/?*.jpg"/>
+    <include name="**/?*.html"/>
+    <include name="**/?*.dtd"/>
+    <include name="**/?*.tld"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+
+  <property name="jdk.home" value="${java.home}" />
+  <property name="jdk.bin" value="${jdk.home}/bin"/>
+  <path id="jdk.classpath">
+    <fileset dir="${jdk.home}">
+      <include name="lib/deploy.jar"/>
+      <include name="lib/dt.jar"/>
+      <include name="lib/jce.jar"/>
+      <include name="lib/plugin.jar"/>
+      <include name="lib/sa-jdi.jar"/>
+      <include name="../Classes/charsets.jar"/>
+      <include name="../Classes/classes.jar"/>
+      <include name="../Classes/dt.jar"/>
+      <include name="../Classes/jce.jar"/>
+      <include name="../Classes/jconsole.jar"/>
+      <include name="../Classes/jsse.jar"/>
+      <include name="../Classes/laf.jar"/>
+      <include name="../Classes/ui.jar"/>
+      <include name="lib/ext/apple_provider.jar"/>
+      <include name="lib/ext/dnsns.jar"/>
+      <include name="lib/ext/localedata.jar"/>
+      <include name="lib/ext/sunjce_provider.jar"/>
+      <include name="lib/ext/sunpkcs11.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home}"/>
+  <property name="project.jdk.bin" value="${jdk.bin}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath"/>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module GUI_rc1_exp -->
+  
+  <dirname property="module.gui_rc1_exp.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.gui_rc1_exp" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.gui_rc1_exp" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.gui_rc1_exp" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.gui_rc1_exp" value="${compiler.args}"/>
+  
+  <property name="gui_rc1_exp.output.dir" value="${module.gui_rc1_exp.basedir}/out/production/GUI_rc1_exp"/>
+  <property name="gui_rc1_exp.testoutput.dir" value="${module.gui_rc1_exp.basedir}/out/test/GUI_rc1_exp"/>
+  
+  <path id="gui_rc1_exp.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="gui_rc1_exp.module.classpath">
+    <path refid="${module.jdk.classpath.gui_rc1_exp}"/>
+    <pathelement location="lib/jsci/jsci-core.jar"/>
+    <pathelement location="lib/jsci/jsci-xtra.jar"/>
+  </path>
+  
+  <path id="gui_rc1_exp.runtime.module.classpath">
+    <path refid="${module.jdk.classpath.gui_rc1_exp}"/>
+    <pathelement location="${gui_rc1_exp.output.dir}"/>
+    <pathelement location="${gui_rc1_exp.testoutput.dir}"/>
+    <pathelement location="lib/jsci/jsci-core.jar"/>
+    <pathelement location="lib/jsci/jsci-xtra.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.gui_rc1_exp">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.gui_rc1_exp">
+    <patternset refid="excluded.from.module.gui_rc1_exp"/>
+  </patternset>
+  
+  <path id="gui_rc1_exp.module.sourcepath">
+    <dirset dir="${module.gui_rc1_exp.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <property name="dist.home"     value="${module.gui_rc1_exp.basedir}/dist"/>
+  <property name="app.name"      value="GUI"/>
+  <property name="app.version"   value="rc1"/>
+  <property name="docs.home"     value="${module.gui_rc1_exp.basedir}/docs"/>
+
+  <target name="get-jdk" description="Check jdk version" >
+    <condition property="jdk1.5" >
+	<or>
+	  <equals arg1="${ant.java.version}" arg2="1.5"/>
+	  <equals arg1="${ant.java.version}" arg2="1.6"/>
+	</or> 
+    </condition>
+  </target>
+
+  <target name="pre-compile" depends="get-jdk" unless="jdk1.5"
+  description="Checks that the right jdk version is installed">
+    <fail message="Must use jdk version >= 1.5. Your version is: ${ant.java.version}" />
+  </target>
+
+  <target name="compile.module.gui_rc1_exp" depends="pre-compile, compile.module.gui_rc1_exp.production,compile.module.gui_rc1_exp.tests" description="Compile module GUI_rc1_exp"/>
+  
+  <target name="compile.module.gui_rc1_exp.production" if="jdk1.5" description="Compile module GUI_rc1_exp; production classes">
+    <mkdir dir="${gui_rc1_exp.output.dir}"/>
+    <javac destdir="${gui_rc1_exp.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <compilerarg line="${compiler.args.gui_rc1_exp}"/>
+      <bootclasspath refid="gui_rc1_exp.module.bootclasspath"/>
+      <classpath refid="gui_rc1_exp.module.classpath"/>
+      <src refid="gui_rc1_exp.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.gui_rc1_exp"/>
+    </javac>
+    
+    <copy todir="${gui_rc1_exp.output.dir}">
+      <fileset dir="${module.gui_rc1_exp.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.gui_rc1_exp.tests" depends="compile.module.gui_rc1_exp.production" description="compile module GUI_rc1_exp; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.gui_rc1_exp" description="cleanup module">
+    <delete dir="${gui_rc1_exp.output.dir}"/>
+    <delete dir="${gui_rc1_exp.testoutput.dir}"/>
+    <delete dir="${dist.home}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.gui_rc1_exp" description="cleanup all"/>
+  
+  <target name="all" depends="init, clean, compile.module.gui_rc1_exp" description="build all"/>
+
+<!-- ==================== Dist Target ===================================== -->
+<!--
+  The "dist" target creates a binary distribution of your application
+  in a directory structure ready to be archived in a tar.gz or zip file.
+  Note that this target depends on two others:
+
+  * "compile" so that the entire web application (including external
+    dependencies) will have been assembled
+
+  * "javadoc" so that the application Javadocs will have been created
+-->
+  <target name="dist" depends="jar, javadoc"
+   description="Create binary distribution">
+
+    <!-- Copy documentation subdirectories -->
+    <mkdir   dir="${dist.home}/docs"/>
+    <copy    todir="${dist.home}/docs">
+      <fileset dir="${docs.home}"/>
+    </copy>
+
+    <copy file="LICENSE" todir="${dist.home}"/>
+    <copy file="COPYING" todir="${dist.home}"/>
+    <copy file="README.txt" todir="${dist.home}"/>
+    
+    <mkdir   dir="${dist.home}/src"/>
+    <copy    todir="${dist.home}/src">
+      <fileset dir="${module.gui_rc1_exp.basedir}/src">
+	<exclude name=".svn" />
+	<exclude name="*~"/>
+      </fileset>
+    </copy>
+
+  </target>
+
+<!-- ==================== Jar Target ===================================== -->
+
+  <target name="jar" depends="clean,compile.module.gui_rc1_exp"
+   description="Create binary version">
+    <mkdir   dir="${dist.home}"/>
+
+    <!-- Copy additional files to ${dist.home} as necessary -->
+    <mkdir   dir="${dist.home}/Grammars"/>
+    <copy    todir="${dist.home}/Grammars">
+      <fileset dir="${module.gui_rc1_exp.basedir}/../param/Grammar">
+	<exclude name="*~"/>
+      </fileset>
+    </copy>
+
+    <mkdir   dir="${dist.home}/Parameters"/>
+    <copy    todir="${dist.home}/Parameters">
+      <fileset dir="${module.gui_rc1_exp.basedir}/../param/Parameters">
+	<exclude name="*~"/>
+      </fileset>
+    </copy>
+
+    <mkdir   dir="${dist.home}/lib"/>
+    <copy    todir="${dist.home}/lib">
+      <fileset dir="${module.gui_rc1_exp.basedir}/lib">
+	<exclude name=".svn" />
+	<exclude name="*~"/>
+      </fileset>
+    </copy>
+
+    <!-- Set mainfest classpath -->
+    <path id="manifest.classpath">  
+      <fileset dir="${module.gui_rc1_exp.basedir}/lib" includes="**/*.jar"/>  
+    </path>  
+
+    <pathconvert property="manifest.cp" refid="manifest.classpath" pathsep=" " dirsep="/">  
+      <map from="${lib.dir}" to="${dist.home}/lib/"/>
+      <map from="${module.gui_rc1_exp.basedir}/" to=""/>
+    </pathconvert>
+  
+    <!-- Create application JAR file -->
+    <jar jarfile="${dist.home}/${app.name}.jar"
+         basedir="${gui_rc1_exp.output.dir}">
+      <manifest>
+	<attribute name="Built-By" value="${user.name}"/>
+	<attribute name="URL" value="http://ncra.ucd.ie"/>
+	<attribute name="Main-Class" value="UI.GEVAPropertiesGUI"/>
+	<attribute name="Class-Path" value="${manifest.cp}"/> 
+      </manifest>
+      <!-- Include properties and grammar files as standard in the jar
+      -->
+      <fileset id="resources" dir="${module.gui_rc1_exp.basedir}/../param">
+        <include name="**/*.bnf"/>
+        <include name="**/*.properties"/>
+    </fileset>
+    </jar>
+
+  </target>
+
+<!-- ==================== Javadoc Target ================================== -->
+
+<!--
+
+  The "javadoc" target creates Javadoc API documentation for the Java
+  classes included in your application.  Normally, this is only required
+  when preparing a distribution release, but is available as a separate
+  target in case the developer wants to create Javadocs independently.
+
+-->
+
+  <target name="javadoc" depends="compile.module.gui_rc1_exp"
+   description="Create Javadoc API documentation">
+
+    <mkdir          dir="${docs.home}"/>
+    <mkdir          dir="${docs.home}/api"/>
+    <javadoc sourcepath="${module.gui_rc1_exp.basedir}/src"
+	     packagenames="*"
+                destdir="${docs.home}/api"
+	    windowtitle="${app.name} specifications"
+	            use="true"
+	  breakiterator="true">
+      <classpath refid="gui_rc1_exp.module.classpath"/>
+    </javadoc>
+
+  </target>
+
+</project>
