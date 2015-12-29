@@ -1,6 +1,14 @@
 package FitnessEvaluation.MyProblem;
 
 import FitnessEvaluation.util.Range;
+
+import java.io.File;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.util.Arrays;
 import java.util.Properties;
 import Individuals.FitnessPackage.BasicFitness;
 import Individuals.Individual;
@@ -8,6 +16,13 @@ import Util.Random.RandomNumberGenerator;
 import Util.Random.Stochastic;
 import FitnessEvaluation.FitnessFunction;
 import Util.Constants;
+import org.apache.bsf.util.StringUtils;
+
+import javax.tools.Diagnostic;
+import javax.tools.DiagnosticCollector;
+import javax.tools.JavaCompiler;
+import javax.tools.JavaFileObject;
+import javax.tools.ToolProvider;
 
 /**
  * Interpreter for symbolic regression.
@@ -118,40 +133,94 @@ public class MyProblem implements FitnessFunction, Stochastic {
      * @throw IllegalArgumentException if the symbol cannot be executed
      */
     private double run() throws IllegalArgumentException {
-        final String s = this.program[this.programCounter];
-        this.programCounter++;
-        if (s.equals("+")) {//Addition
-            return (run() + run());
-        } else if (s.equals("-")) {//Subtraction
-                return (run() - run());
-        } else if (s.equals("*")) {//Multiplication
-                    return (run() * run());
-        } else if (s.equals("/")) {
-            /* Protected division. Returns the numerator if
-            denominator <= 0.00001 */
-            final double numerator = run(),  denominator = run();
-            if (Math.abs(denominator) > 0.00001) {
-                return (numerator / denominator);
-            } else {
-                return numerator;
-            }
-        } else if (s.matches("x\\d+")) {
-            /*Get which variable is used of x0,..,xn
-             * Varibale number is the digits after x
-             */
-            final int variableNumber = Integer.parseInt(s.substring(1));
-            return x[variableNumber];
-        } else if (s.equals("rnd")) {
-            /*Insert a random number
-             * FIXME: implement other random number generation techniques
-             */
-            return this.rng.nextDouble();
-        } else if (s.matches("-?\\d+\\.?\\d*")) {
-            //Insert a constant will be parsed as double
-            return Double.parseDouble(s);
+        /*****/
+        String str1 = Arrays.toString(this.program);
+        str1 = str1.substring(1, str1.length()-1).replaceAll(",", "");
+        String javaCode =
+                "public class HelloWorld {" +
+                        //"  public static void main(String args[]) {" +
+                        //"    System.out.println(\"This is in another java file\");" +
+                        //"  }" +
+                        "  public static double myMethod(Double x0, Double x1) {" +
+                        "  return " + str1 + ";" +
+                        "  }" +
+                        "}";
+        //System.out.println(javaCode);
+        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+        JavaFileObject file = new JavaSourceFromString("HelloWorld", javaCode);
+        DiagnosticCollector<JavaFileObject> diagnostics = new DiagnosticCollector<JavaFileObject>();
+        Iterable<? extends JavaFileObject> compilationUnits = Arrays.asList(file);
+        JavaCompiler.CompilationTask task = compiler.getTask(null, null, diagnostics, null, null, compilationUnits);
+        boolean success = task.call();
+        for (Diagnostic diagnostic : diagnostics.getDiagnostics()) {
+            System.out.println(diagnostic.getCode());
+            System.out.println(diagnostic.getKind());
+            System.out.println(diagnostic.getPosition());
+            System.out.println(diagnostic.getStartPosition());
+            System.out.println(diagnostic.getEndPosition());
+            System.out.println(diagnostic.getSource());
+            System.out.println(diagnostic.getMessage(null));
         }
+        //System.out.println("Success: " + success);
+        double result = 0.0;
+        if (success) {
+            try {
+
+                URLClassLoader classLoader = null;
+                try {
+                    classLoader = URLClassLoader.newInstance(new URL[] { new File("").toURI().toURL() });
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
+                Method myMethod = Class.forName("HelloWorld", true, classLoader).getDeclaredMethod("myMethod", new Class[] { Double.class, Double.class });
+                result = (double)myMethod.invoke(null, x[0], x[1]);
+            } catch (ClassNotFoundException e) {
+                System.err.println("Class not found: " + e);
+            } catch (NoSuchMethodException e) {
+                System.err.println("No such method: " + e);
+            } catch (IllegalAccessException e) {
+                System.err.println("Illegal access: " + e);
+            } catch (InvocationTargetException e) {
+                System.err.println("Invocation target: " + e);
+            }
+        }
+        return result;
+        /*****/
+
+//        final String s = this.program[this.programCounter];
+//        this.programCounter++;
+//        if (s.equals("+")) {//Addition
+//            return (run() + run());
+//        } else if (s.equals("-")) {//Subtraction
+//                return (run() - run());
+//        } else if (s.equals("*")) {//Multiplication
+//                    return (run() * run());
+//        } else if (s.equals("/")) {
+//            /* Protected division. Returns the numerator if
+//            denominator <= 0.00001 */
+//            final double numerator = run(),  denominator = run();
+//            if (Math.abs(denominator) > 0.00001) {
+//                return (numerator / denominator);
+//            } else {
+//                return numerator;
+//            }
+//        } else if (s.matches("x\\d+")) {
+//            /*Get which variable is used of x0,..,xn
+//             * Varibale number is the digits after x
+//             */
+//            final int variableNumber = Integer.parseInt(s.substring(1));
+//            return x[variableNumber];
+//        } else if (s.equals("rnd")) {
+//            /*Insert a random number
+//             * FIXME: implement other random number generation techniques
+//             */
+//            return this.rng.nextDouble();
+//        } else if (s.matches("-?\\d+\\.?\\d*")) {
+//            //Insert a constant will be parsed as double
+//            return Double.parseDouble(s);
+//        }
         //Should not get here
-        throw new IllegalArgumentException(this.getClass().getName() + " Bad execution value:" + s);
+        //throw new IllegalArgumentException(this.getClass().getName() + " Bad execution value:" + s);
     }
 
     public boolean canCache() {
