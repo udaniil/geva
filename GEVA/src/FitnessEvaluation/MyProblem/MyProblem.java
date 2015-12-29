@@ -19,7 +19,7 @@ public class MyProblem implements FitnessFunction, Stochastic {
     double[] x; //Values of the data points for each variable x0,x1,...
     double[] calculated_target; //Values of the target at each data point
     double[][] samples; //Values for each variable at each data point
-    String[] program; //Parsed phenotype string is the program
+    String program[]; //Parsed phenotype string is the program
     int programCounter; //Counter for program
     private Range range; //Range of samples
 
