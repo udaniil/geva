@@ -1,3 +1,5 @@
-<expr> ::= "(" <expr> <op> <expr> ")" | <var>
-<op>   ::= + | - | * | /
-<var>  ::= x0 | x1 | 1.0
+<expr> ::= "("<arith_expr> <expr> <expr>")" | "("<if_expr> <bool_expr> <expr> <expr>")" | <var>
+<arith_expr>  ::= + | - | * | /
+<bool_expr> ::=  "(<" <expr> <expr>")" | "(>" <expr> <expr>")"
+<if_expr>  ::= if
+<var>  ::= x0 | 1.0

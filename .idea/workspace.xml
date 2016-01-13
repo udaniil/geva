@@ -2,7 +2,314 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7fcfcf-c7aa-47af-be6c-516dd6496b2b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/.#Jatha.java.1.45" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/Jatha.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/.#LispCompiler.java.1.26" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AbsoluteValuePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AddOnePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AddPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AppendPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ApplyPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AproposPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ArcCosinePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ArcSinePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ArcTangent2Primitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ArcTangentPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ArgumentCountMismatchException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AssocPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/AtomPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/BackquotePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/BlockPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/BoundpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ButlastPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CarPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CdrPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CeilingPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CharacterpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ClrhashPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CompilerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ConcatenatePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ConsPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ConspPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ConstantpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CopyListPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CosecantPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CosinePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/CotangentPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DefconstantPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DefparameterPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DefvarPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DegreesToRadiansPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DividePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/DocumentationPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EighthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EltPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EqPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EqlPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EqualNumericPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/EvalPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ExitPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ExportPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FactorialPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FboundpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FifthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FindPackagePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FirstPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FloatpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FloorPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FourthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FreePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FuncallPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/FunctionPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GcFullPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GcPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GethashPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GoPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GreaterThanOrEqualPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GreaterThanPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/GrindefPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtableCountPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtableRehashSizePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtableRehashThresholdPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtableSizePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtableTestPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/HashtablepPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ImportPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/IntegerpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/InternPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/KeywordpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LastPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LengthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LessThanOrEqualPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LessThanPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LispCompiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LispPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ListAllPackagesPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ListPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ListStarPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ListpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LoadFromJarPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/LoadPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/Macroexpand1Primitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MacroexpandPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MakeHashTablePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MakepackagePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MaxPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MemberPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MinPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/MultiplyPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NStringCapitalizePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NStringDowncasePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NStringUpcasePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NconcPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NinthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NotPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NreversePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NullPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/NumberpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PackageNamePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PackageNicknamesPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PackageUseListPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PopPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PositionPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/Prin1Primitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PrincPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PrintPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/PushPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/QuotePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RadiansToDegreesPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RassocPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ReadFromStringPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ReciprocalPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RemhashPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RemovePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RestPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ReturnFromPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ReversePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RplacaPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/RplacdPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SecantPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SecondPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetfDocumentationPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetfGethashPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetfSymbolFunctionPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetfSymbolPlistPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetfSymbolValuePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SetqPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SeventhPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ShadowPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ShadowingImportPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SinePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SixthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SquareRootPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringCapitalizePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringDowncasePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringEndsWithPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringEqPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringEqualPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringGreaterThanOrEqualPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringGreaterThanPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringGreaterpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringLeftTrimPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringLessThanOrEqualPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringLessThanPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringLesspPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringNeqPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringNotGreaterpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringNotLesspPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringRightTrimPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringStartsWithPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringTrimPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringUpcasePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/StringpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SubstPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SubtractOnePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SubtractPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolFunctionPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolNamePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolPackagePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolPlistPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolValuePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/SymbolpPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TagbodyPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TangentPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TenthPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ThirdPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TimePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TracePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/TypeOfPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/UndefinedFunctionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/UndefinedVariableException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/UsePackagePrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/WrongArgumentTypeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/ZeropPrimitive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/AuxArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/KeyArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/LambdaList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/NormalArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/OptionalArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/OrdinaryLambdaList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/compile/args/RestArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/AppletFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/LispInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/Listener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/UnderConstruction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/action/ApplicationAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/action/RunAproposTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/action/RunGCTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/action/RunLoadFileTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/menu/ActiveMenuItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/display/menu/QuitMenuItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/.#LispValue.java.1.21" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/.#StandardLispString.java.1.14" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/.#StandardLispValue.java.1.22" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispAlreadyDefinedPackageException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispAtom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispBignum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispCharacter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispComplex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispCons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispConsIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispConsOrNil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispConstantRedefinedException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispForeignObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispHashTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispIndexOutOfRangeException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispJavaObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispKeyword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispMacro.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispNil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispPackage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispReal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispSymbol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispUnboundVariableException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispUndefinedFunctionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispUndefinedPackageException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotACharacterException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAConsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAFunctionException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAHashtableException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAListException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotANumberException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAPackageException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotASequenceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAStringException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotASymbolException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAnAtomException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotAnIntegerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValueNotConvertableToAStringException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispAtom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispBignum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispCharacter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispComplex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispCons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispConsOrNil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispForeignObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispHashTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispJavaObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispKeyword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispMacro.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispNIL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispPackage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispReal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispSymbol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/eval/LispEvaluator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/SECDMachine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/SECDRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/SECDop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opAP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opBLK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opDAP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opDAP.java.new" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opDUM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opJOIN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLDC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLDF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLDFC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLDR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLD_GLOBAL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opLIS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opNIL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opRAP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opRTN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opRTN_IF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opRTN_IT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opSEL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opSP_BIND.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opSP_UNBIND.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opSTOP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opTAG_B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opTAG_E.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/machine/opTEST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/read/LispParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/test/LispValueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/test/fact.lisp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/ArgumentTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/CoreTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GEVA/src/org/jatha/util/SymbolTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java" afterPath="$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui.config" afterPath="$PROJECT_DIR$/gui.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/param/Grammar/my_problem.bnf" afterPath="$PROJECT_DIR$/param/Grammar/my_problem.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/param/Parameters/MyProblem.properties" afterPath="$PROJECT_DIR$/param/Parameters/MyProblem.properties" />
     </list>
     <ignored path="geva.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,50 +334,12 @@
       <file leaf-file-name="MyProblem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8129371">
-              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-              <folding>
-                <element signature="e#6023#6039#0" expanded="true" />
-                <element signature="e#9507#9508#0" expanded="true" />
-                <element signature="e#9534#9535#0" expanded="true" />
-                <element signature="e#9584#9585#0" expanded="true" />
-                <element signature="e#9622#9623#0" expanded="true" />
-                <element signature="e#9658#9659#0" expanded="true" />
-                <element signature="e#9684#9685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FitnessEvaluationOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GEVA/src/Operator/Operations/FitnessEvaluationOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GEVA/src/Main/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaSourceFromString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/JavaSourceFromString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4548495">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#2797#2798#0" expanded="true" />
+                <element signature="e#2828#2829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,7 +366,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/JavaSourceFromString.java" />
+        <option value="$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/CoreTest.java" />
+        <option value="$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/ArgumentTest.java" />
+        <option value="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispBignum.java" />
         <option value="$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java" />
+        <option value="$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispNumber.java" />
       </list>
     </option>
   </component>
@@ -131,8 +404,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,6 +411,344 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="geva" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FloatingDecimal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="URLClassLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NumberFormatException" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Integer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.7 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassLoader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -168,6 +777,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Constants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -231,6 +862,354 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Random" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Random" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RandomNumberGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="junit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArgumentTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StandardLispValue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StandardLispReal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StandardLispNumber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StandardLispInteger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StandardLispBignum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jatha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynatype" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LispValue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -247,6 +1226,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Operator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Operator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FitnessEvaluator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Operator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Operations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,6 +1293,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Operations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GrowInitialiser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -295,6 +1322,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FitnessEvaluationOperation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Operator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Operations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FitnessEvaluationOperation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CacheItem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,15 +1482,98 @@
               <option name="myItemId" value="MyProblem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSourceFromString" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimplePipeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFirstSearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geva" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GEVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/lib/jatha" />
   </component>
   <component name="RunManager" selected="Application.Console">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -748,7 +1888,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33920705" sideWeight="0.6178203" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31057268" sideWeight="0.6178203" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,7 +1909,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="36" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -792,13 +1941,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6023#6039#0" expanded="true" />
-            <element signature="e#9507#9508#0" expanded="true" />
-            <element signature="e#9534#9535#0" expanded="true" />
-            <element signature="e#9584#9585#0" expanded="true" />
-            <element signature="e#9622#9623#0" expanded="true" />
-            <element signature="e#9658#9659#0" expanded="true" />
-            <element signature="e#9684#9685#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,62 +1967,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GEVA/src/Util/Statistics/IndividualCatcher.java">
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Main/AbstractRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6546547">
-          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.6454849">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/JavaSourceFromString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4548495">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GEVA/src/Main/Run.java">
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33295456">
+          <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GEVA/src/Main/AbstractRun.java">
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/CoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7447553">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21931818">
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/test/junit/ArgumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56704545">
+          <caret line="132" column="45" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispBignum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83444816">
+          <caret line="297" column="15" selection-start-line="297" selection-start-column="15" selection-end-line="297" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/LispValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277592">
+          <caret line="944" column="19" selection-start-line="944" selection-start-column="19" selection-end-line="944" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5735786">
+          <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Operator/Operations/GrowInitialiser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58862877">
+          <caret line="276" column="28" selection-start-line="276" selection-start-column="28" selection-end-line="276" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/java/net/URLClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25569177">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Algorithm/MyFirstSearchEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43143812">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#1699#1700#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Algorithm/SimplePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277592">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Operator/FitnessEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6304348">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GEVA/src/Operator/Operations/FitnessEvaluationOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.33277592">
           <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Util/Statistics/IndividualCatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67391306">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3485114">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.703704">
+          <caret line="94" column="43" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.592592">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7.0_80/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.148148">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277592">
+          <caret line="255" column="53" selection-start-line="255" selection-start-column="53" selection-end-line="255" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/Jatha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6454849">
+          <caret line="969" column="22" selection-start-line="969" selection-start-column="22" selection-end-line="969" selection-end-column="22" />
+          <folding>
+            <element signature="e#29481#29482#0" expanded="true" />
+            <element signature="e#29516#29517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispReal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277592">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Util/Random/RandomNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78929764">
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/Main/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40301004">
+          <caret line="206" column="35" selection-start-line="206" selection-start-column="35" selection-end-line="206" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GEVA/src/org/jatha/dynatype/StandardLispNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4749164">
+          <caret line="479" column="30" selection-start-line="479" selection-start-column="30" selection-end-line="479" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GEVA/src/FitnessEvaluation/MyProblem/MyProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8129371">
-          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.4548495">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="e#6023#6039#0" expanded="true" />
-            <element signature="e#9507#9508#0" expanded="true" />
-            <element signature="e#9534#9535#0" expanded="true" />
-            <element signature="e#9584#9585#0" expanded="true" />
-            <element signature="e#9622#9623#0" expanded="true" />
-            <element signature="e#9658#9659#0" expanded="true" />
-            <element signature="e#9684#9685#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -936,7 +2254,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>antlr-2.7.7</last-edited>
+          <last-edited>jscheme-7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

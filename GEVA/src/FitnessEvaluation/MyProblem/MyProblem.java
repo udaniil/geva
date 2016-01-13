@@ -2,13 +2,8 @@ package FitnessEvaluation.MyProblem;
 
 import FitnessEvaluation.util.Range;
 
-import java.io.File;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLClassLoader;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Properties;
 import Individuals.FitnessPackage.BasicFitness;
 import Individuals.Individual;
@@ -16,14 +11,8 @@ import Util.Random.RandomNumberGenerator;
 import Util.Random.Stochastic;
 import FitnessEvaluation.FitnessFunction;
 import Util.Constants;
-import org.apache.bsf.util.StringUtils;
-
-import javax.tools.Diagnostic;
-import javax.tools.DiagnosticCollector;
-import javax.tools.JavaCompiler;
-import javax.tools.JavaFileObject;
-import javax.tools.ToolProvider;
-
+import org.jatha.*;
+import org.jatha.dynatype.*;
 /**
  * Interpreter for symbolic regression.
  * @author erikhemberg
@@ -37,8 +26,13 @@ public class MyProblem implements FitnessFunction, Stochastic {
     String program[]; //Parsed phenotype string is the program
     int programCounter; //Counter for program
     private Range range; //Range of samples
+    private Jatha myLisp;  // Lisp VM
 
     public MyProblem() {
+        // create Lisp VM
+        myLisp = new Jatha(false, false);
+        myLisp.init();
+        myLisp.start();
     }
 
     public Range getRange() {
@@ -136,57 +130,17 @@ public class MyProblem implements FitnessFunction, Stochastic {
         /*****/
         String str1 = Arrays.toString(this.program);
         str1 = str1.substring(1, str1.length()-1).replaceAll(",", "");
-        String javaCode =
-                "public class HelloWorld {" +
-                        //"  public static void main(String args[]) {" +
-                        //"    System.out.println(\"This is in another java file\");" +
-                        //"  }" +
-                        "  public static double myMethod(Double x0, Double x1) {" +
-                        "  return " + str1 + ";" +
-                        "  }" +
-                        "}";
-        //System.out.println(javaCode);
-        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
-        JavaFileObject file = new JavaSourceFromString("HelloWorld", javaCode);
-        DiagnosticCollector<JavaFileObject> diagnostics = new DiagnosticCollector<JavaFileObject>();
-        Iterable<? extends JavaFileObject> compilationUnits = Arrays.asList(file);
-        JavaCompiler.CompilationTask task = compiler.getTask(null, null, diagnostics, null, null, compilationUnits);
-        boolean success = task.call();
-        for (Diagnostic diagnostic : diagnostics.getDiagnostics()) {
-            System.out.println(diagnostic.getCode());
-            System.out.println(diagnostic.getKind());
-            System.out.println(diagnostic.getPosition());
-            System.out.println(diagnostic.getStartPosition());
-            System.out.println(diagnostic.getEndPosition());
-            System.out.println(diagnostic.getSource());
-            System.out.println(diagnostic.getMessage(null));
+        //String lispCode = String.format(Locale.US, "(let ((x0 %f) (x1 %f)) %s)", x[0], x[1], str1);
+        String lispCode = String.format(Locale.US, "(let ((x0 %f)) %s)", x[0], str1);
+        LispValue result1 = null;
+        try {
+            result1 = myLisp.eval(lispCode);
+        } catch (Exception e) {
+            System.err.println("LISP Exception: " + e);
         }
-        //System.out.println("Success: " + success);
-        double result = 0.0;
-        if (success) {
-            try {
 
-                URLClassLoader classLoader = null;
-                try {
-                    classLoader = URLClassLoader.newInstance(new URL[] { new File("").toURI().toURL() });
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                }
-                Method myMethod = Class.forName("HelloWorld", true, classLoader).getDeclaredMethod("myMethod", new Class[] { Double.class, Double.class });
-                result = (double)myMethod.invoke(null, x[0], x[1]);
-            } catch (ClassNotFoundException e) {
-                System.err.println("Class not found: " + e);
-            } catch (NoSuchMethodException e) {
-                System.err.println("No such method: " + e);
-            } catch (IllegalAccessException e) {
-                System.err.println("Illegal access: " + e);
-            } catch (InvocationTargetException e) {
-                System.err.println("Invocation target: " + e);
-            }
-        }
-        return result;
+        return Double.parseDouble(result1.toString());
         /*****/
-
 //        final String s = this.program[this.programCounter];
 //        this.programCounter++;
 //        if (s.equals("+")) {//Addition
